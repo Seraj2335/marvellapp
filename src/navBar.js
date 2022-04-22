@@ -1,4 +1,4 @@
-import { AppBar, Avatar, Button, Container, Toolbar, Typography } from '@mui/material';
+import { AppBar, Avatar, Button, Container, Stack, Toolbar, Typography } from '@mui/material';
 import React from 'react';
 import { IconButton } from '@mui/material';
 // import { DataGrid } from '@mui/x-data-grid';
@@ -44,10 +44,15 @@ export default function NavBar() {
                               BILLINGS
                           </Button>
                        </Box>
-                      </IconButton>
-                      <Badge badgeContent={3} color='primary' style={{size:16 }}>
+            </IconButton>
+            <Stack>
+            
+            <Badge badgeContent={3} color='primary' style={{size:16 }}>
                   <NotificationsRoundedIcon fontSize='large' style={{color:'#000000'}}/>
                         </Badge>
+            
+            </Stack>
+                      
                       <Avatar
                           alt="AB Devlliers"
                           src='https://wallpaperaccess.com/full/5015378.jpg'

@@ -10,11 +10,22 @@ export default function Body() {
 
 
 
-   const mapDataArray = [
+  const mapDataArray = [
     {
       'name': 'Sara Smith',
-       'dob': '15 Aug 2020',
-      'image':'https://0.academia-photos.com/1146626/7780576/16075834/s200_sara.smith.jpg'
+      'dob': '15 Aug 2020',
+      'image': 'https://0.academia-photos.com/1146626/7780576/16075834/s200_sara.smith.jpg',
+      'phone': '302-857-9685',
+      'email': 'sarasmith@gmail.com',
+      'gender': 'Female',
+      'age': 45,
+      'surgery-type': 'Rotator Cuff Repair',
+      'surgery-date': '15 Aug 2020',
+      'height': 163,
+      'bmi': 19,
+      'anesthesiologist': 'Dr. Christina Hardaway',
+      'anesthesiologist-phone': '301-896-8745',
+       'anesthesiologist-email':'christina@h3a.com'
     },
      {
       'name': 'James Johnson',
